@@ -59,7 +59,7 @@ function chunkArray(array: any, size: any) {
 
 function Hero() {
   const [showAll, setShowAll] = React.useState(false);
-  const [data, setData] = React.useState([
+  const [data] = React.useState([
     { aptImg: img1, aptName: "Apt 1", aptPrice: "$1,000" },
     { aptImg: img2, aptName: "Apt 2", aptPrice: "$1,000" },
     { aptImg: img3, aptName: "Apt 3", aptPrice: "$1,000" },

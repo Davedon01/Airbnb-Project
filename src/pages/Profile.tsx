@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import md5 from 'blueimp-md5'; // Ensure 'blueimp-md5' is installed and its types are available (npm install blueimp-md5 @types/blueimp-md5)
+import md5 from 'blueimp-md5' // Ensure 'blueimp-md5' is installed and its types are available (npm install blueimp-md5 @types/blueimp-md5)
 
 // Define an interface for the User object
 // This ensures that any 'user' object in your state will consistently have an 'email' property.

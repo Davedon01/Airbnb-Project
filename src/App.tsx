@@ -1,7 +1,7 @@
-import React from 'react'
+// import React from 'react'
 import NavBar from './Component/NavBar'
 import Header from './Component/Header'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Hero from './Component/Hero'
 import Buttom from './Component/Buttom'
 

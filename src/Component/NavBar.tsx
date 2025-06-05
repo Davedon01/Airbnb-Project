@@ -1,13 +1,13 @@
-import React from "react";
+// import React from "react";
 import logo from "../assets/airbnb logo(1).png";
 import SearchBar from "./SearchBar";
 import Button from "./Button";
 import Dropdown from "./DropDown";
 import Profile from "../pages/Profile";
 
-interface User {
-  email: string;
-}
+// interface User {
+//   email: string;
+// }
 function NavBar() {
   return (
     <div className="bg-gray-50 h-35 flex gap-5 justify-center items-center shadow-lg">

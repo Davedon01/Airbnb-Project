@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import img1 from "../assets/Untitled1.jpg";
 import img2 from "../assets/Untitled2.jpg";
 import img3 from "../assets/Untitled3.jpg";
@@ -107,8 +107,8 @@ function Hero() {
     { aptImg: img45, aptName: "Apt 45", aptPrice: "$1,000" },
   ]);
 
-  const [searchTerm, setSearchTerm] = useState("");
-  const [filteredData, setFilteredData] = useState(data);
+  // const [searchTerm, setSearchTerm] = useState("");
+  // const [filteredData, setFilteredData] = useState(data);
   
 
   const groupedData = chunkArray(data, 10); // Chunks of 10

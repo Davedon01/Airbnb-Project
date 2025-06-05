@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import Icon1 from '../assets/Amazing views.png'
 import Icon2 from '../assets/Beachfronts.png'
 import Icoon3 from '../assets/Boats.jpg'

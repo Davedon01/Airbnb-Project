@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import md5 from 'blueimp-md5'; // Ensure 'blueimp-md5' is installed and its types are available (npm install blueimp-md5 @types/blueimp-md5)
 
 // Define an interface for the User object
